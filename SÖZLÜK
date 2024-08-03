@@ -1,0 +1,16 @@
+meme_dict = {
+            "TRYHARD": "bir iş için uğraşmak",
+            "FOCUS": "odaklanmak",
+            "CHİLL": "sakin olmak",
+            "FAİL": "hata yapmak",
+            "FEEDLEMEK": "rakibe kendini bilerek öldürtmek"
+            }
+            
+            
+            
+word = input("Anlamadığınız kelimeleri büyük harflerle yazınız")
+
+if word in meme_dict.keys():
+    print(meme_dict[word])
+else:
+    print("bu kelime sözlükte yok")
